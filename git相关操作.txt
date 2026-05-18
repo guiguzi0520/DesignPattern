@@ -1,0 +1,21 @@
+配置 Git 账号（只做一次）
+git config --global user.mail "m18851407064@163.com"
+git config --global user.name "guiguzi0520"
+
+
+本地空文件夹 绑定已有 GitHub 远程仓库
+	1、新建一个本地文件夹，进入文件夹右键打开 Git Bash
+	2、初始化本地仓库
+	git init
+	3、关联 GitHub 远程仓库（替换成你的 GitHub 仓库地址）
+	git remote add origin https://github.com/guiguzi0520/CodeStudy.git
+
+提交readme.txt
+git add readme.txt
+git commit -m "第一次提交"
+git push origin master
+
+
+克隆代码到本地
+git clone [github地址] [默认当前目录]
+git clone https://github.com/guiguzi0520/CodingInterviewChinese.git
