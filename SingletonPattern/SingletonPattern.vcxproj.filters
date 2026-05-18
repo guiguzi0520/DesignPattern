@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="singleton1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="singleton2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="singleton3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="singleton4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="singleton2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton4.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{7282914a-edea-48d5-b284-51ffb742be45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{fad4f996-acdc-4c82-aca1-84c760f20a36}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
